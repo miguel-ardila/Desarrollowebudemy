@@ -13,3 +13,11 @@
 .css {
     width: 100px;
 }
+.html {
+    color: white;
+    background-color: aqua;
+    padding: 10px;
+    border: 8px solid rgb(241, 122, 10);
+    margin: 30px;
+
+}
