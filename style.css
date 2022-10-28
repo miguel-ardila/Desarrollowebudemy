@@ -1,23 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&display=swap');
 .git {
-    width: 80px;
+  width: 80px;
 }
 
 .js {
-    width: 100px;
+  width: 100px;
 }
 
 .ht {
-    width: 110px;
+  width: 110px;
 }
 
 .css {
-    width: 100px;
+  width: 100px;
 }
 .html {
-    color: white;
-    background-color: aqua;
-    padding: 10px;
-    border: 8px solid rgb(241, 122, 10);
-    margin: 30px;
+  color: white;
+  background-color: aqua;
+  padding: 10px;
+  border: 8px solid rgb(241, 122, 10);
+  margin: 30px;
+}
 
+.boton {
+  color: aqua;
+  background-color: burlywood;
+  padding: 4px;
+  border-radius: 20%;
+  margin: 10px;
+  font-family: Island Moments;
 }
