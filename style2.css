@@ -3,3 +3,11 @@ table, th, td{
     border-collapse: collapse;
     text-align: center;
 }
+
+.tabla2 {
+    border: 1px solid blueviolet;
+    border-collapse: separate;
+    text-align: left;
+    text-decoration-color: brown;
+    background-color: beige;
+}
