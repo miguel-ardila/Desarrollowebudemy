@@ -31,6 +31,29 @@ div{
     text-align: center;
     margin: 10px 115px;
     padding: 15px;
-h2{
     text-align: center;
+}
+
+.titulo{
+    color: chocolate;
+    text-align: center;
+}
+
+.marco{
+    width: 100%;
+    height: 200px;
+    border: 1px solid blueviolet;
+}
+
+.boton{
+    background-color: black;
+    border: 2px solid burlywood;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+.boton:hover{
+    background-color: blue;
+    color: white;
 }
