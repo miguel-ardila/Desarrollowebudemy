@@ -14,3 +14,15 @@ ol li::before{
 ol li::after{
     content: '.';
 }
+h3{
+    color: aqua;
+  
+}
+.div1{
+    color: darkcyan;
+}
+div{
+    border: 10px solid #560bad;
+    background-color: aquamarine;
+    text-align: center;
+}
