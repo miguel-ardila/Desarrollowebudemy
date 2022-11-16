@@ -67,11 +67,26 @@
         <label for="maculino">maculino</label><br>
 
         <label>Genero de musica favorita</label><br>
-        <input type="text">
+        
+        <input type="checkbox" id="clasica" name="musica" value="clasica">
+        <label for="clasica">Clasica</label> <br>
+        <input type="checkbox" id="rock" name="musica" value="clasica">
+        <label for="rock">Rock</label> <br>
 
+        <!--elemento select y textarea-->
+        <label for="autos">Marca de auto</label><br/>
+        <select id="autos" name"autos">
+            <option value="BMW">BMW</option>
+            <option value="Audi">Audi</option>
+            <option value="Volvo" selected="true">Volvo</option>
+        </select><br>
         <br>
         <input type="submit" value="Enviar">
-        <input type="submit" formnovalidate="formnovalidate" value="Enviar sin validar">
+        <input type="submit" formnovalidate="formnovalidate"
+        value="Enviar sin validar">
+
+
+
 
     </form>
 
