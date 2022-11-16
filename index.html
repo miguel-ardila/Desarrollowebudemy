@@ -49,43 +49,50 @@
     <!--formularios-->
     <h1>formularios</h1>
     <form>
-        <label for="name">Nombre:</label>
-        <input type="text" id="name" placeholder="Tu Nombre" required="true"> <br><br>
-        <label for="apellido">Apellido:</label>
-        <input type="text" id="apellido" placeholder="Tu Apellido" required="true">
-        <br><br>
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email"><br>
-
-        <label for="edad">Edad</label>
-        <input type="number" id="edad" name="edad">
-        <br>
-        <label>Genero:</label><br>
-        <input type="radio" id="femenino" name="Genero" value="femenino">
-        <label for="femenino">Femenino</label><br>
-        <input type="radio" id="masculino" name="Genero" value="masculino">
-        <label for="maculino">maculino</label><br>
-
-        <label>Genero de musica favorita</label><br>
-        
-        <input type="checkbox" id="clasica" name="musica" value="clasica">
-        <label for="clasica">Clasica</label> <br>
-        <input type="checkbox" id="rock" name="musica" value="clasica">
-        <label for="rock">Rock</label> <br>
-
-        <!--elemento select y textarea-->
-        <label for="autos">Marca de auto</label><br/>
-        <select id="autos" name"autos">
-            <option value="BMW">BMW</option>
-            <option value="Audi">Audi</option>
-            <option value="Volvo" selected="true">Volvo</option>
-        </select><br>
-        <br>
-        <input type="submit" value="Enviar">
-        <input type="submit" formnovalidate="formnovalidate"
-        value="Enviar sin validar">
+        <fieldset>
 
 
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" placeholder="Tu Nombre" required="true"> <br><br>
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" placeholder="Tu Apellido" required="true">
+            <br><br>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email"><br>
+
+            <label for="edad">Edad</label>
+            <input type="number" id="edad" name="edad">
+            <br>
+            <label>Genero:</label><br>
+            <input type="radio" id="femenino" name="Genero" value="femenino">
+            <label for="femenino">Femenino</label><br>
+            <input type="radio" id="masculino" name="Genero" value="masculino">
+            <label for="maculino">maculino</label><br>
+
+            <label>Genero de musica favorita</label><br>
+
+            <input type="checkbox" id="clasica" name="musica" value="clasica">
+            <label for="clasica">Clasica</label> <br>
+            <input type="checkbox" id="rock" name="musica" value="clasica">
+            <label for="rock">Rock</label> <br>
+
+            <!--elemento select y textarea-->
+            <label for="autos">Marca de auto</label><br />
+            <select id="autos" name"autos">
+                <option value="BMW">BMW</option>
+                <option value="Audi">Audi</option>
+                <option value="Volvo" selected="true">Volvo</option>
+            </select><br>
+
+            <!--textArea-->
+            <label for="comentario">Comentario:</label><br>
+            <textarea name="comentario" id="comentario" cols="30" rows="10" placeholder="Escribe aqui"></textarea>
+
+
+            <br>
+            <input type="submit" value="Enviar">
+            <input type="submit" formnovalidate="formnovalidate" value="Enviar sin validar">
+        </fieldset>
 
 
     </form>
