@@ -22,3 +22,16 @@ body {
     color: #000000;
     text-align: center;
 }
+
+.contenedor .elemento label {
+    color: aliceblue;
+}
+
+.contenedor .elemento input {
+    width: 100%;
+    padding: 10px 0;
+    color: aliceblue;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+}
