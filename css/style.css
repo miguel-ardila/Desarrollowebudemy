@@ -2,7 +2,18 @@ h1{
     color: aqua;
     text-align: center;
     font-size: 80px;
+    border: solid red;
+    border-width: 10px;
+    border-radius: 20px;
 }
 /*selector universal
 *{}
 */
+
+p.center{
+    text-align: center;
+    border-style: dotted;
+    border-width: 10px 5px 3px 2px;
+    border-color: crimson hotpink gold lime;
+    
+}
